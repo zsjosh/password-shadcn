@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔐 密码生成器
 
-## Getting Started
+一个使用 Next.js 和 shadcn/ui 构建的现代化密码生成器，提供简单直观的界面和强大的密码生成功能。
 
-First, run the development server:
+## ✨ 功能特点
 
+- 🎨 简洁优雅的用户界面
+- 🔄 多种密码预设方案
+  - 简单密码 (8位)
+  - 标准密码 (12位)
+  - 强密码 (16位)
+  - 超强密码 (24位)
+- ⚙️ 自定义密码选项
+  - 大写字母 (A-Z)
+  - 小写字母 (a-z)
+  - 数字 (0-9)
+  - 特殊字符 (!@#$%^&*)
+- 📋 一键复制功能
+- 🔔 操作反馈提示
+- 🌓 响应式设计
+- 🎯 精确的密码长度控制
+
+## 🛠️ 技术栈
+
+- [Next.js](https://nextjs.org/) - React 框架
+- [shadcn/ui](https://ui.shadcn.com/) - 组件库
+- [Tailwind CSS](https://tailwindcss.com/) - 样式框架
+- [Sonner](https://sonner.emilkowal.ski/) - 提示通知
+- [Lucide Icons](https://lucide.dev/) - 图标库
+
+## 🚀 快速开始
+
+1. 克隆项目
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/password-generator.git
+cd password-generator
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. 安装依赖
+```bash
+npm install
+# 或
+yarn install
+# 或
+pnpm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. 启动开发服务器
+```bash
+npm run dev
+# 或
+yarn dev
+# 或
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. 在浏览器中打开 [http://localhost:3000](http://localhost:3000)
 
-## Learn More
+## 📝 使用说明
 
-To learn more about Next.js, take a look at the following resources:
+1. 选择密码预设或自定义密码选项
+2. 点击"生成随机密码"按钮
+3. 使用复制按钮将密码复制到剪贴板
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔒 安全特性
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 使用加密安全的随机数生成
+- 支持多种字符组合
+- 密码长度可调
+- 实时密码强度反馈
 
-## Deploy on Vercel
+## 🤝 贡献
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+欢迎提交 Issue 和 Pull Request！
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 许可证
+
+MIT License - 详见 [LICENSE](LICENSE) 文件
+
+## 👤 作者
+
+- Twitter: [@ZS_JOSH](https://x.com/ZS_JOSH)
+- GitHub: [Your GitHub Profile](https://github.com/yourusername)
+
+## 🙏 致谢
+
+- [shadcn/ui](https://ui.shadcn.com/) - 提供精美的组件
+- [Next.js](https://nextjs.org/) - 提供强大的框架支持
+- [Tailwind CSS](https://tailwindcss.com/) - 提供灵活的样式解决方案
